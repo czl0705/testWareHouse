@@ -92,6 +92,7 @@
 
 function Marquee() {
     this.ID = document.getElementById(arguments[0]);
+    console.log(123)
     if (!this.ID) {
         alert("您要设置的\"" + arguments[0] + "\"初始化错误\r\n请检查标签ID设置是否正确!");
         this.ID = -1;
